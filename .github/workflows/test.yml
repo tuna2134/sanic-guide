@@ -15,4 +15,4 @@ jobs:
       - name: install lib
         run: |
           npm install @crowdin/cli@3
-          npx crowdin upload --help
+          npx crowdin upload -T=${{ secrets.CROWDIN_APIKEY }}
