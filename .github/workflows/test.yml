@@ -15,4 +15,4 @@ jobs:
       - name: install lib
         run: |
           npm install @crowdin/cli@3
-          npx crowdin --help
+          npx crowdin upload --help
